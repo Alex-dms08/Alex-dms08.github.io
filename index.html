@@ -4,6 +4,59 @@
        <title> Los Vehiculos Autonomos </title> 
     </head>
     <body>
+    <style>
+  #frameset {
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  #menu-frame {
+    width: 200px;
+    background: #333333;
+    color: #FFFAF0;
+    padding: 10px;
+    overflow-y: auto;
+    flex-shrink: 0;
+    border-right: 2px solid #00e5ff;
+  }
+
+  #menu-frame a {
+    display: block;
+    color: #00e5ff;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+  }
+
+  #menu-frame a:hover { color: #ffffff; }
+
+  body { margin-left: 220px; }
+</style>
+
+<div id="menu-frame">
+  <br>
+  <center><b>Navegacion</b></center>
+  <hr>
+  <br>
+  <b>Paginas:</b><br><br>
+  <a href="index.html">&#9654; Inicio</a>
+  <a href="tesla.html">&#9654; Tesla</a>
+  <a href="waymo.html">&#9654; Waymo</a>
+  <a href="mercedes.html">&#9654; Mercedes</a>
+  <hr>
+  <b>Secciones:</b><br><br>
+  <a href="#tesla">&#8227; Tesla</a>
+  <a href="#waymo">&#8227; Waymo</a>
+  <a href="#mercedes">&#8227; Mercedes</a>
+  <a href="#baidu">&#8227; Baidu</a>
+  <a href="#mobileye">&#8227; Mobileye</a>
+</div>
     <h1><center> Los Vehiculos Autonomos </center></h1>
     <hr>
     <center><b> Los Vehiculos Autonomos, Que son ? </b></center>
